@@ -100,9 +100,10 @@ if st.button("Calcular"):
 
         A partir de la combinación de ecuaciones y sabiendo que $X2$ (fracción de sólidos en el azúcar puro) es $1.0$, se obtiene:
 
-        $M3 = M1 \cdot \frac{{{{X1 - X2}}}}{{{{X3 - X2}}}} = {m1_input:.2f} \cdot \frac{{({x1_input:.2f} - 1.0)}}{{({x3_input:.2f} - 1.0)}} = {m3_result:.2f} \text{ kg}$
+        $M3 = M1 \cdot \frac{{X1 - X2}}{{X3 - X2}} = {m1_input:.2f} \cdot \frac{{({x1_input:.2f} - 1.0)}}{{({x3_input:.2f} - 1.0)}} = {m3_result:.2f} \text{ kg}$
 
         $M2 = M3 - M1 = {m3_result:.2f} - {m1_input:.2f} = {m2_result:.2f} \text{ kg}$
         """)
+
 
 
